@@ -1,7 +1,7 @@
 # projetobeneficiario
 
-## Microserviço destinado ao gerenciamento de beneficiário.
-- Para rodar o projeto é necessário o projeto é necessário o Docker e o Docker Compose instalados, bem como a JDK versão 11 do java e o gradle a partir da versão 6.7;
+## Microserviço destinado ao gerenciamento dos beneficiários. Ele mantém as informações em um banco de dados postgreSQL e estuta uma fila no RabbitMQ que recebe informações do serviço de aporte do valor.
+- Para rodar o projeto é necessário o projeto é necessário o Docker e o Docker Compose instalados, bem como a JDK versão 11 do java;
 - Para iniciar o banco de dados PostgreSQL e o Rabbitmq. Rodar o comando 
 
 		`docker-compose up -d` 
